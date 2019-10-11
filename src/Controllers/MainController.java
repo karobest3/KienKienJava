@@ -155,7 +155,7 @@ public class MainController {
             System.out.println(errMes);
             services.setAreaUsed(FuncValidation.checkValidNumberInteger(content,errMes));
         }
-        //Enter Rental Costs
+        //Enter Rental Costs.
         content = "Enter Rental Costs: ";
         errMes = "Rental Costs is invalid (Area > 0, Area must be Double). Please try again!!!";
         services.setRentalCosts(FuncValidation.checkValidNumberDouble(content,errMes));
